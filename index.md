@@ -1,11 +1,12 @@
-# Beverages
+# Cold Beverages, Hot Beverages
 ## Beverages to Drink
-*water bottle* , **soda**, juice
+*water bottle* , **soda**, *juice*
 
 [Different Fruit Juices](https://sipsmarter.org/juicepedia/juice-varieties/)
 ![Image](https://st2.depositphotos.com/2577341/6474/i/950/depositphotos_64740945-stock-photo-cold-water-bottles-on-ice.jpg)
 
 > Cold drinks are nice on hot, sunny days. 
+> Hot Drinks are nice on cold, windy days. 
 
 
 * Cold  Water
