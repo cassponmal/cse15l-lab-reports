@@ -1,7 +1,7 @@
 # Cold Beverages, Hot Beverages
 ## Beverages to Drink
 *water bottle* , **soda**, *juice*
-
+[Lab Report 1](https://cassponmal.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 [Different Fruit Juices](https://sipsmarter.org/juicepedia/juice-varieties/)
 ![Image](https://st2.depositphotos.com/2577341/6474/i/950/depositphotos_64740945-stock-photo-cold-water-bottles-on-ice.jpg)
 
