@@ -2,14 +2,15 @@
 
 ## Installing VS Code
 * Follow the [Link to Visual Studio Code](https://code.visualstudio.com/)
-* Then click the download button. 
+* Then click the download button to install Visual Studio Code. 
 ![Image](Screenshot1.png)
 
 
 ## Remotely Connecting
 * On Visual Studio Code, open a new terminal by clicking on Terminal on the top menu and then click New Terminal.
-* Type in ssh cs15lsp22alf@ieng6.ucsd.edu on the newly opened terminal 
-* You have now connected to the remote computer. Your terminal should look to the screenshot provided below. 
+* We will use the ssh protocol to remotely connect to the server by typing: ssh cs15lsp22alf@ieng6.ucsd.edu   
+on the newly opened terminal 
+* Once that is done you have have now  remotely connected to the computer. Your terminal should look similar to the screenshot provided below. 
 ![Image](Screenshot2.png)
 
 
@@ -17,15 +18,39 @@
 * Type in pwd on the terminal. The pwd command prints the working directory on the terminal.
 * Type in ls on the terminal. The ls command list files. 
 * Type in ls -a on the terminal. The ls -a command list all the files including the hidden ones. 
-* Type Type in ls -a on the terminal. The ls -a command list can be used to diplay the contents of a file. 
+* Type in cat on the terminal. The cat command can be used to diplay the contents of a file. 
 ![Image](Screenshot3.png)
 
 
 ## Moving Files with scp
-* To move files from one computer to another, we can use the scp command on the client computer to help us do so. Type scp << file name >>  cse15lalf@ieng6.ucsd.edu:~/  in the terminal from the directory where your desired file is in on the client computer.
-* If prompted type in your password, and type in ssh cs15lsp22alf@ieng6.ucsd.edu to log into the  ieng6  remote server
+* To move files from one computer to another remote computer, we can use the scp command on the client computer to help us do so.In the terminal from the directory where your desired file is in type: scp << file name >>  cse15lalf@ieng6.ucsd.edu:~/  
+* If prompted type in your password, and to log into the  ieng6  remote server type: ssh cs15lsp22alf@ieng6.ucsd.edu
 * Once you are remotely connected to the ieng6 computers you should be able to see the file when you type ls on the terminal of your remote server. 
 ![Image](Screenshot4.png)
+
+
+## Setting an SSH Key
+* Call shh-keygen on the terminal of your client computer to create a public key file and a private key file. Your terminal should look like the screenshot below. 
+![Image](Screenshot5.png)
+* Next, you want to type the file name of the private key ending in id_rsa. (For example, I would type our << /Users/cassandraponce/.ssh/id_rsa>> and then press enter)
+* Then you will be prompted to “Enter passphrase (empty for no passphrase):” just press enter. You will also be prompted to “Enter same passphrase again:”, and once again you just want to press enter.Your terminal should look similar to the screenshot below. 
+![Image](Screenshot6.png)
+### Public Key to Server
+* To copy the public key to the server, begin by remotely connecting to the server by typing: ssh cs15lsp22alf@ieng6.ucsd.edu and enter your password
+* Type mkdir .ssh and press enter. Then click control d to log out of your account on the server. 
+* Once you are on your client server type:
+scp /Users/cassandraponce/.ssh/id_rsa.pub cs15lsp22alf@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+
+## Optimizing Remote Running
+* Begin by creating a secure copy of the file by copying and pasting the following into the  terminal:  scp Lab.java << Input Username>> @ieng6.ucsd.edu:~/ 
+* Then we will remotely connect to the server and complie/run the file from the remote server by coping  and pasting: ssh cs15lsp22alf@ieng6.ucsd.edu "javac Lab.java; java Hello"      to ther terminal.
+* Note: I am using quotes to run the commands directly on the server, and I am using able to put multiple command on a single line by using a semicolon to run multiple commands.
+![Image](Screenshot7.png)
+
+
+
+
 
 
 
