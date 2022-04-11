@@ -39,13 +39,12 @@ on the newly opened terminal.
 ### Public Key to Server
 * To copy the public key to the server, begin by remotely connecting to the server by typing: ssh << username >>@ieng6.ucsd.edu and enter your password
 * Type mkdir .ssh and press enter. Then click control d to log out of your account on the server. 
-* Once you are on your client server type:
-scp /Users/cassandraponce/.ssh/id_rsa.pub cs15lsp22alf@ieng6.ucsd.edu:~/.ssh/authorized_keys
+* Once you are on your client, type: scp /Users/cassandraponce/.ssh/id_rsa.pub << username >>@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 
 ## Optimizing Remote Running
-* Begin by creating a secure copy of the file by copying and pasting the following into the  terminal:  scp << filename>> <<username>> @ieng6.ucsd.edu:~/ 
-* Then we will remotely connect to the server and compile/run the file from the remote server by copying  and pasting: ssh cs15lsp22alf@ieng6.ucsd.edu "javac Lab.java; java Hello"      to the terminal.
+* Begin by creating a secure copy of the file by copying and pasting the following into the  terminal:  scp << filename>> << username >>@ieng6.ucsd.edu:~/ 
+* Then we will remotely connect to the server and compile/run the file from the remote server by copying  and pasting: ssh << username >>@ieng6.ucsd.edu "javac Lab.java; java Hello"      to the terminal.
 * Note: I am using quotes to run the commands directly on the server, and I am able to put multiple commands on a single line by using a semicolon.
 ![Image](Screenshot7.png)
 
