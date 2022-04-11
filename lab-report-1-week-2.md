@@ -10,7 +10,7 @@
 * On Visual Studio Code, open a new terminal by clicking on Terminal on the top menu and then click New Terminal.
 * We will use the ssh protocol to remotely connect to the server by typing: ssh << username >>@ieng6.ucsd.edu   
 on the newly opened terminal.
-* Once that is done you are now remotely connected to the computer. Your terminal should look similar to the screenshot provided below. 
+* Input your password. Once that is done you are now remotely connected to the computer. Your terminal should look similar to the screenshot provided below. 
 ![Image](Screenshot2.png)
 
 
