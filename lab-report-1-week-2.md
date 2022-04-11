@@ -1,4 +1,4 @@
-# Remote Aceses
+# Remote Access
 
 ## Installing VS Code
 * Follow the [Link to Visual Studio Code](https://code.visualstudio.com/)
