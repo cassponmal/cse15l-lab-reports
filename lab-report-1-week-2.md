@@ -15,7 +15,7 @@ on the newly opened terminal.
 
 
 ## Trying Some Commands
-* Type in pwd on the terminal. The pwd command prints the working directory on the terminal.
+* Type in `pwd` on the terminal. The pwd command prints the working directory on the terminal.
 * Type in ls on the terminal. The ls command lists files. 
 * Type in ls -a on the terminal. The ls -a command lists all the files including the hidden ones. 
 * Type in cat on the terminal. The cat command can be used to display the contents of a file. 
