@@ -1,4 +1,4 @@
-# Lab Report2
+# Lab Report 2
 
 ## Code Change One
 ![Image](Screenshot8.png)
