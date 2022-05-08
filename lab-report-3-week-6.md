@@ -6,13 +6,11 @@ By streamlining the ssh configuration, you no longer have to type out  `ssh` << 
 On Visual Studio Code, I opened a new terminal and I used `vim` as the tool to edit my .ssh/config file by entering `vim ~/.ssh/config` in my terminal. 
 
 <br />
-<br />
 
 ## **Logging Into My Account Using the Alias**
 ![Image](Screenshot15.png)
 On Visual Studio Code, I opened a new terminal and I used the ssh protocol and my alias to remotely connect to the ieng6 server by entering `ssh ieng6`  in my terminal. 
 
-<br />
 <br />
 
 ## **scp Command Copying a File Using The Alias**
@@ -23,21 +21,18 @@ To copy a file into my account using my alias I typed in this scp command:
 <br />
 <br />
 <br />
-<br />
 
 # Setup Github Access from ieng6
 In order to use git commit and git pull from the command line, I added my public key to Github, as you must use a token based login. Once I added my public key onto github I was able to use git push from the command. 
 
-
 ## **The Public Key Stored on Github**
 ![Image](Screenshot17.png)
-<br />
+
 <br />
 
 ## **Public Key and Private Key Stored in User Account**
 ![Image](Screenshot18.png)
 
-<br />
 <br />
 
 ## **Running Git Commands While Logged Into ieng6 Account**
@@ -48,8 +43,6 @@ In order to use git commit and git pull from the command line, I added my public
 <br />
 <br />
 <br />
-<br />
-
 
 # Copy Whole Directories With scp -r
 
@@ -62,19 +55,16 @@ By using the scp command we can copy a directory onto a remote server, by typing
 ![Image](Screenshot20.png)
 
 <br />
-<br />
 
 ## **Logging Into ieng6 Account and Compiling and Running Tests**
 ![Image](Screenshot21.png)
 
-<br />
 <br />
 
 ## **Combining scp, ; , and ssh to copy the Whole Directory and Run the Tests in One Line**
 ![Image](Screenshot23.png)
 ![Image](Screenshot24.png)
 
-<br />
 <br />
 <br />
 <br />
