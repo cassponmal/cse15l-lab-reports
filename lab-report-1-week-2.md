@@ -1,6 +1,6 @@
 # Remote Access
 
-## Installing VS Code
+## **Installing VS Code**
 * Follow the [Link to Visual Studio Code](https://code.visualstudio.com/)
 * Then click the download button to install Visual Studio Code. 
 ![Image](Screenshot1.png)
