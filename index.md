@@ -2,6 +2,8 @@
 
 [Lab Report 2](https://cassponmal.github.io/cse15l-lab-reports/labReport2.html)
 
+[Lab Report 3](https://cassponmal.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
 # Cold Beverages, Hot Beverages
 ## Beverages to Drink
 *water bottle* , **soda**, *juice*
