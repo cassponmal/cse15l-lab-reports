@@ -15,7 +15,7 @@ On Visual Studio Code, I opened a new terminal and I used the ssh protocol and m
 
 ## **scp Command Copying a File Using The Alias**
 ![Image](Screenshot16.png)
-To copy a file into my account using my alias I typed in this scp command:
+To copy a file into my account using my alias I typed the following scp command into the terminal:
 `scp labReportPart1.java ieng6:~/`
 
 <br />
@@ -23,7 +23,7 @@ To copy a file into my account using my alias I typed in this scp command:
 <br />
 
 # Setup Github Access from ieng6
-In order to use `git commit` and `git pull` from the command line,you must use a token based login so I added my public key to Github. Once I added my public key into Github I was able to use git push from the command line. In order to add my public key into Github I copied the SSH public key, I went Settings on Github, I clicked "New SSH key" and I pasted my key.
+In order to use `git commit` and `git pull` from the command line, you must use a token based login so I added my public key to Github. Once I added my public key into Github I was able to use git push from the command line. In order to add my public key into Github I copied the SSH public key, I went to Settings on Github, I clicked "New SSH key" and I pasted my key.
 
 ## **The Public Key Stored on Github**
 ![Image](Screenshot17.png)
