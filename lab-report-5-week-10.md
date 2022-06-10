@@ -52,4 +52,4 @@ For the test file, 490.md, the implementation from Lab 9 produced the correct ou
 
 ## Description of Bug 
 ![Image](Screenshot43.png)
-For my implementation of markdown-parser, the bug in the program is the logic used to calculate the link. Currently the program returns anything between the index of the open parenthesis and the index of the closed parenthesis as a valid link. The program fails to account for newlines  and white space in the parenthesis. 
+For my implementation of markdown-parser, the bug in the program is the logic used to determine the link. Currently the program returns anything between the index of the open parenthesis and the index of the closed parenthesis as a valid link. The program fails to account for newlines  and white space in between the parenthesis, as seen in the output of this test file.  
